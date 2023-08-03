@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -a | grep -E "^[0-9a-zA-Z]" | sort -t/ -k1,1 -k2,2 -k3,3 -k4,4 | tr '\n' ',' && ls -ad . .. | tr '\n' ',' && echo
+ls -xamp
